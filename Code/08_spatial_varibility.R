@@ -50,7 +50,7 @@ nir = sent[[1]]
 
 # Exercise: plot the nir band with the inferno color ramp palette
 plot(nir, col=inferno(100))
-sd3 = focal(nir, w=c(3,3), fun="sd")
+sd3 = focal(nir, w=c(3,3), fun="sd") #questa fondamentale da TERRA va usata per dev standard se mi serve
 plot(sd3)
 
 im.multiframe(1,2)
@@ -123,7 +123,7 @@ p4 = im.ggplot(sd5a5)
 p1 + p2 + p3 + p4
 
 
-im.multiframe(2,2)
+im.multiframe(2,2) # mi pare di capire che im.multiframe non funzioni con ggplot, dacci un occhio
 plot(sd3, col=mako(100))
 plot(sd3a, col=mako(100))
 plot(sd3a5, col=mako(100))
