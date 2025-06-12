@@ -7,7 +7,7 @@ library(imageRy)
 # Installing cblindplot
 library(devtools)
 install_github("duciororocchini/cblindplot")
-library(cblindplot)
+library(cblindplot)    #per il mio esame non serve cblindplot, concentrati su imageRy e le lezioni prima. 
 
 # Importing data
 setwd("~/Desktop")
