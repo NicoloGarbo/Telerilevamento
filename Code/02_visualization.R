@@ -13,7 +13,7 @@ im.list()
 # Sentinel bands:
 # https://custom-scripts.sentinel-hub.com/custom-scripts/sentinel-2/bands/
  
-# For the whole course we are going to make use of = instead of <-
+# For the whole course we are going to make use of = instead of <- #questo importante
 # This is based on the following video:
 # https://www.youtube.com/watch?v=OJMpKCKH1hM
 
