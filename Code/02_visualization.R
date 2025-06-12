@@ -129,8 +129,8 @@ im.plotRGB(sentdol, r=3, g=4, b=1)
 dev.off()
 im.plotRGB(sentdol, r=3, g=2, b=4)
 
-
-#im.plotRGB lo dovrò usare nel mio esame, guarda bene su /imageRy se è spiegato meglio
+# Rocio mi ha detto di prendere le immagini da earth explorer, le prenderò da li che magari queste erano solo per le lezioni
+# im.plotRGB lo dovrò usare nel mio esame, guarda bene su /imageRy se è spiegato meglio
 # viridis ok per la palette, usa "magma"
 # usa im.multiframe per affiancore i plot in visualizzazione.
 # im.multiframe non mi funziona con ggplot
