@@ -32,8 +32,9 @@ library(imageRy)
 
 
 # installato imageRy studia bene le funzioni che voglio mettere nel progetto
-# anche terra bisogna studiarselo bene perchè è enorme
-
+# anche terra bisogna studiarselo bene perchè è enorme e Rocio ha detto che è super consigliato e utile
+# riguarda anche vecchi appunti dell'esame di R e statistica che ci sono tutti i codici di ggplot2 per i grafici e anche altro
+# salvare i pdf con dev.off() MEMO
 
 
 
