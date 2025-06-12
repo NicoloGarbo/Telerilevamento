@@ -31,7 +31,8 @@ library(imageRy)
 # update packages: avoid! just press enter
 
 
-
+# installato imageRy studia bene le funzioni che voglio mettere nel progetto
+# anche terra bisogna studiarselo bene perchè è enorme
 
 
 
