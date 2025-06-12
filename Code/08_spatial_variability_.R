@@ -66,7 +66,7 @@ im.multiframe(1,2)
 im.plotRGB(sent, r=1, g=2, b=3)
 plot(sd3)
 
-sd5 = focal(nir, w=c(5,5), fun="sd")
+sd5 = focal(nir, w=c(5,5), fun="sd") #cerca se esistono altre funzioni utili da terra per l'esame, soprattutto per dev standard, oltre alle solite di R base
 dev.off()
 plot(sd5)
 
