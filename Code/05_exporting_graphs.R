@@ -27,5 +27,6 @@ jpeg("difgreen.jpeg")
 plot(grdif)
 dev.off()
 
-# anche ggsave per salvare pdf come nel corso di R statistica dove possibile
+# Usa sempre pdf per salvare nello script d'esame + dev.off.
+# Per fare i grafici usa le funzioni di imageRy dove possibile altrimenti ggplot. Vedi anche vecchie lezioni del corso di statistica con R
 # usa anche im.export per mostrare che esporti i file .tif
