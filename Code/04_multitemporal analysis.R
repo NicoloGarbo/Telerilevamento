@@ -18,7 +18,7 @@ EN_13 = flip(EN_13)
 plot(EN_13)
 
 # Exercise: plot the two images one beside the other
-im.multiframe(1,2)
+im.multiframe(1,2) #ecco questo se ho capito bene come funziona è utilissimo per unire i plot, anche al posto di patchwork
 plot(EN_01)
 plot(EN_13)
 
