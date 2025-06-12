@@ -130,6 +130,8 @@ dev.off()
 im.plotRGB(sentdol, r=3, g=2, b=4)
 
 
+#im.plotRGB lo dovrò usare nel mio esame, guarda bene su /imageRy se è spiegato meglio
+# viridis ok per la palette, usa "magma"
 
 
 
