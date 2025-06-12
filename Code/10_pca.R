@@ -26,3 +26,4 @@ tot = 72 + 59 + 6
 
 sdpc1 = focal(sentpca[[1]], w=c(3,3), fun="sd")
 plot(sdpc1)     
+# non condurrò analisi pca direi proprio
