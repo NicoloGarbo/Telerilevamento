@@ -2,9 +2,9 @@
 
 library(imageRy) # beloved package developed at unibo
 library(terra)
-library(viridis)
+library(viridis) # questa la uso, guarda bene che palette servono per ndvi
 
-im.list()
+im.list() # questa non la uso
 
 mato1992 = im.import("matogrosso_l5_1992219_lrg.jpg")
 mato1992 = flip(mato1992)
@@ -116,7 +116,7 @@ dvi2006auto = im.dvi(mato2006, 1, 2)
 dev.off()
 plot(dvi2006auto)
 
-ndvi1992auto = im.ndvi(mato1992, 1, 2)
+ndvi1992auto = im.ndvi(mato1992, 1, 2) # a quanto pare im.ndvi lo fa in automatico il calcolo: usa questo!!!
 dev.off()
 plot(ndvi1992auto)
 
