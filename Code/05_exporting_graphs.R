@@ -26,3 +26,6 @@ dev.off()
 jpeg("difgreen.jpeg")
 plot(grdif)
 dev.off()
+
+# anche ggsave per salvare pdf come nel corso di R statistica dove possibile
+# usa anche im.export per mostrare che esporti i file .tif
