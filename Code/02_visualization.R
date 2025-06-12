@@ -132,6 +132,11 @@ im.plotRGB(sentdol, r=3, g=2, b=4)
 
 #im.plotRGB lo dovrò usare nel mio esame, guarda bene su /imageRy se è spiegato meglio
 # viridis ok per la palette, usa "magma"
+# usa im.multiframe per affiancore i plot in visualizzazione.
+# im.multiframe non mi funziona con ggplot
+# se cambio da ggplot a plot il grafico mi restituisce immagini diverse
+# no ok lascia con ggplot dove im.multiframe non va
+
 
 
 
